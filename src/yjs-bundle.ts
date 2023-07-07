@@ -12,11 +12,13 @@ import { YKeyValue } from 'y-utility/y-keyvalue'
 import { LWWMap } from 'y-lwwmap'
 // @ts-ignore
 import { Observable } from 'lib0/observable'
+// @ts-ignore
+import * as syncedStore from '@syncedstore/core'
 
 export {
   PREFERRED_TRIM_SIZE, fetchUpdates, storeState, clearDocument, IndexeddbPersistence,
   WebsocketProvider, messageAuth, messageAwareness, messageQueryAwareness, messageSync,
   WebrtcConn, Room, SignalingConn, WebrtcProvider,
   YKeyValue, LWWMap,
-  Observable
+  Observable, syncedStore
 }
